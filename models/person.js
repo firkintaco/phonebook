@@ -5,7 +5,7 @@ const url = process.env.MONGO_URI;
 // MongoDB Connect
 mongoose
   .connect(url)
-  .then((res) => {
+  .then(() => {
     console.log("Succesfully connected to mongoDB ATLAS");
   })
   .catch((err) => console.log("Error connecting to MongoDB:", err.message));

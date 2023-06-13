@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/persons/64884edd5bbeca588341c388
+Content-Type: application/json
+
+{
+    "name": "Ada Rakkausjärvi"
+
+}
